@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#90CAF9"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#C62828"
+        android:layout_gravity="center"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/editext_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter you name"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/editext_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:backgroundTint="#BF360C"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
